@@ -36,5 +36,6 @@ sysinfo.txt
 *.unitypackage
 
 # Thirdparty
-Assets/MRTK/
-Assets/Thirdparty/
+HoloLWRPSandbox/Assets/MRTK/
+HoloLWRPSandbox/Assets/Thirdparty/
+HoloLWRPSandbox/Assets/LWRP/
