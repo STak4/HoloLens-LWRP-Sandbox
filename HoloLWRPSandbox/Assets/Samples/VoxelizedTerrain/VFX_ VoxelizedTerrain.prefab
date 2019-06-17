@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1036432836555231397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036432836555231392}
+  - component: {fileID: 1036432836555231399}
+  - component: {fileID: 1036432836555231398}
+  m_Layer: 0
+  m_Name: VFX_ VoxelizedTerrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1036432836555231392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036432836555231397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &1036432836555231399
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036432836555231397}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 6a236408235dd0645a365e5128c09ae2, type: 3}
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 0
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 4
+        m_Name: BlendSpeed
+        m_Overridden: 0
+      - m_Value: 0.96
+        m_Name: Elevation
+        m_Overridden: 1
+      - m_Value: 2.21
+        m_Name: Input HeightMap Scale
+        m_Overridden: 0
+      - m_Value: 0.25
+        m_Name: Water Elevation
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array:
+      - m_Value: {x: 0, y: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {x: 3, y: 3}
+        m_Name: WorldSize
+        m_Overridden: 0
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.12726949, g: 0.20325522, b: 0.41509432, a: 1}
+          key1: {r: 0, g: 0.7103448, b: 1, a: 1}
+          key2: {r: 0.8113208, g: 0.8113208, b: 0.4554112, a: 0}
+          key3: {r: 0.6315848, g: 0.8014706, b: 0.15322232, a: 0}
+          key4: {r: 0, g: 0.41509432, b: 0.14697975, a: 0}
+          key5: {r: 0.2264151, g: 0.14541607, b: 0.14204344, a: 0}
+          key6: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0}
+          key7: {r: 1, g: 1, b: 1, a: 0}
+          ctime0: 0
+          ctime1: 3939
+          ctime2: 6554
+          ctime3: 9386
+          ctime4: 11733
+          ctime5: 25560
+          ctime6: 39891
+          ctime7: 65535
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 8
+          m_NumAlphaKeys: 2
+        m_Name: HeightFieldColorMap
+        m_Overridden: 0
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 2800000, guid: 1a27d702f958c4d40bce8b7ab5e8f44d, type: 3}
+        m_Name: HeightMap
+        m_Overridden: 0
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &1036432836555231398
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036432836555231397}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
