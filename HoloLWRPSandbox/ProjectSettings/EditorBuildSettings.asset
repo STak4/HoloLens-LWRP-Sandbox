@@ -12,21 +12,21 @@ EditorBuildSettings:
     path: Assets/Contents/Scenes/LWRPTest.unity
     guid: bb286e5a3a4431043a4729ecec048b5d
   - enabled: 0
-    path: Assets/Contents/Scenes/SpaceShitHoloTable.unity
+    path: Assets/Contents/Scenes/VFX-SampleEdits/SpaceShitHoloTable.unity
     guid: ddcf9674747b40c48a97cbec9a1dadb7
-  - enabled: 0
-    path: Assets/Contents/Scenes/ARRader.unity
+  - enabled: 1
+    path: Assets/Contents/Scenes/VFX-SampleEdits/ARRader.unity
     guid: ca2225df5bd4f28489ea5af68347e843
   - enabled: 0
-    path: Assets/Contents/Scenes/Genie.unity
+    path: Assets/Contents/Scenes/VFX-SampleEdits/Genie.unity
     guid: 9dfc965f1b0ef064e97b90d247edb7d7
   - enabled: 0
-    path: Assets/Contents/Scenes/Butterflies.unity
+    path: Assets/Contents/Scenes/VFX-SampleEdits/Butterflies.unity
     guid: f6c91be29ff3d3e44a6390b6741d2a62
   - enabled: 0
-    path: Assets/Contents/Scenes/Unity_Logo.unity
+    path: Assets/Contents/Scenes/VFX-SampleEdits/Unity_Logo.unity
     guid: 44a1cc72cba1ad04b9706bb488c3f1ff
-  - enabled: 1
-    path: Assets/Contents/Scenes/VoxelizedTerrain.unity
+  - enabled: 0
+    path: Assets/Contents/Scenes/VFX-SampleEdits/VoxelizedTerrain.unity
     guid: 671f64948313e2a4e94b3d545acd39fa
   m_configObjects: {}
